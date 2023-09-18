@@ -1,0 +1,9 @@
+.business-container {
+  height: 100%;
+  padding: 8px;
+  .chart {
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+
+  }
+}

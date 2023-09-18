@@ -1,0 +1,121 @@
+.container {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+
+  border-radius: 4px;
+  background: url(../../assets/images/card_twobj.png);
+  background-size: cover;
+  -moz-background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  .top {
+    width: 100%;
+    height: 120px;
+    background: url(../../assets/images/card_two_topbj.png);
+    background-size: cover;
+    -moz-background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: flex;
+    padding-left: 30px;
+
+    .icon {
+      width: 120px;
+      height: 120px;
+      box-sizing: border-box;
+    }
+
+    .icon_gj {
+      background: url(../../assets/images/gj.png);
+      background-size: cover;
+      -moz-background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .icon_dj {
+      background: url(../../assets/images/dj.png);
+      background-size: cover;
+      -moz-background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .icon_wjj {
+      background: url(../../assets/images/wjj.png);
+      background-size: cover;
+      -moz-background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .icon_cc {
+      background: url(../../assets/images/cc.png);
+      background-size: cover;
+      -moz-background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .dep {
+      // margin-left: 20px;
+      padding-left: 20px;
+      width: 390px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      gap:24px;
+
+      .depTitle {
+        font-size: 32px;
+        font-family: HYYakuHei-GEW-75W;
+        color: #CAF0FC;
+      }
+
+      .depContent {
+        .item {
+          display: flex;
+          align-items: baseline;
+          gap: 12px;
+          .name {
+            font-family: PingFangSC-Regular;
+            font-size: 14px;
+            color: #FFFFFF;
+          }
+
+          .value {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            .num {
+              font-size: 24px;
+              font-family: Avenir-BlackOblique;
+              font-weight: 400;
+              color: #FFFFFF;
+              text-shadow: 0px 4px 10px 0px #2D76BB;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              // -webkit-text-stroke: 1px #00FFF4;
+              line-height: 28px;
+              height: 28px;
+            }
+
+            .unit {
+              height: 22px;
+              line-height: 22px;
+              font-size: 16px;
+              font-family: Avenir-BlackOblique;
+              font-weight: 400;
+              color: #FFFFFF;
+              // text-shadow: 0px 4px 10px 0px #2D76BB;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              // -webkit-text-stroke: 1px #00FFF4;
+            }
+          }
+        }
+      }
+    }
+  }
+}
